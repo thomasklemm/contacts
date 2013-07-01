@@ -30,6 +30,12 @@ gem 'turbolinks'
 # User authentication
 gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
 
+# Slim templating language
+gem 'slim-rails'
+
+# Twitter Bootstrap
+gem 'bootstrap-sass', '~> 2.3.2.0'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
