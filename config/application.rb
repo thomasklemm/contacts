@@ -30,8 +30,8 @@ module Contacts
 
     # Generator options
     config.generators do |g|
-      g.test_framework :rspec, fixture: true
-      g.fixture_replacement :fabrication
+      # g.test_framework :rspec, fixture: true
+      # g.fixture_replacement :fabrication
       g.helper false
       g.stylesheets false
       g.javascript_engine false

@@ -1,6 +1,8 @@
 Contacts::Application.routes.draw do
   devise_for :users
 
+  resources :accounts, only: [:index]
+
   root 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
