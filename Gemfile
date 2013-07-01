@@ -36,6 +36,12 @@ gem 'slim-rails'
 # Twitter Bootstrap
 gem 'bootstrap-sass', '~> 2.3.2.0'
 
+# Connect Facebook accounts
+gem 'omniauth-facebook'
+
+# Working with Facebook
+gem 'koala', '~> 1.7.0rc1'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
